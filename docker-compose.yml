@@ -1,0 +1,10 @@
+version: "3.8"
+services: 
+  discord-loggarr:
+    build: .
+    container_name: discord-loggarr
+    env_file:
+      - .env
+    ports: 
+      - "${}:${}"
+    restart: unless-stopped
