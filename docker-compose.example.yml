@@ -1,0 +1,16 @@
+version: "3.8"
+services: 
+  discord-loggarr:
+    image: dualshock/discord-loggarr:dev
+    container_name: discord-loggarr
+    restart: unless-stopped
+    env_file: #optional
+      - .env 
+    environment: 
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - DISCORD_LOGS_CHANNEL_ID=${DISCORD_LOGS_CHANNEL_ID}
+      - WEBHOOK_SECRET=${WEBHOOK_SECRET} #optional
+    ports: 
+      - "8080:8080" #change xxxx:8080 to an available port on your host machine
+
+

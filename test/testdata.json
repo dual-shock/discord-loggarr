@@ -1,0 +1,117 @@
+{
+  "id": 0,
+  "guid": "string",
+  "quality": {
+    "quality": {
+      "id": 0,
+      "name": "string",
+      "source": "unknown",
+      "resolution": 0,
+      "modifier": "none"
+    },
+    "revision": {
+      "version": 0,
+      "real": 0,
+      "isRepack": true
+    }
+  },
+  "customFormats": [
+    {
+      "id": 0,
+      "name": "string",
+      "includeCustomFormatWhenRenaming": true,
+      "specifications": [
+        {
+          "id": 0,
+          "name": "string",
+          "implementation": "string",
+          "implementationName": "string",
+          "infoLink": "string",
+          "negate": true,
+          "required": true,
+          "fields": [
+            {
+              "order": 0,
+              "name": "string",
+              "label": "string",
+              "unit": "string",
+              "helpText": "string",
+              "helpTextWarning": "string",
+              "helpLink": "string",
+              "value": "string",
+              "type": "string",
+              "advanced": true,
+              "selectOptions": [
+                {
+                  "value": 0,
+                  "name": "string",
+                  "order": 0,
+                  "hint": "string",
+                  "dividerAfter": true
+                }
+              ],
+              "selectOptionsProviderAction": "string",
+              "section": "string",
+              "hidden": "string",
+              "privacy": "normal",
+              "placeholder": "string",
+              "isFloat": true
+            }
+          ],
+          "presets": [
+            "string"
+          ]
+        }
+      ]
+    }
+  ],
+  "customFormatScore": 0,
+  "qualityWeight": 0,
+  "age": 0,
+  "ageHours": 0,
+  "ageMinutes": 0,
+  "size": 0,
+  "indexerId": 0,
+  "indexer": "string",
+  "releaseGroup": "string",
+  "subGroup": "string",
+  "releaseHash": "string",
+  "title": "string",
+  "sceneSource": true,
+  "movieTitles": [
+    "string"
+  ],
+  "languages": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "mappedMovieId": 0,
+  "approved": true,
+  "temporarilyRejected": true,
+  "rejected": true,
+  "tmdbId": 0,
+  "imdbId": 0,
+  "rejections": [
+    "string"
+  ],
+  "publishDate": "2025-12-24T03:00:36.670Z",
+  "commentUrl": "string",
+  "downloadUrl": "string",
+  "infoUrl": "string",
+  "movieRequested": true,
+  "downloadAllowed": true,
+  "releaseWeight": 0,
+  "edition": "string",
+  "magnetUrl": "string",
+  "infoHash": "string",
+  "seeders": 0,
+  "leechers": 0,
+  "protocol": "unknown",
+  "indexerFlags": "string",
+  "movieId": 0,
+  "downloadClientId": 0,
+  "downloadClient": "string",
+  "shouldOverride": true
+}

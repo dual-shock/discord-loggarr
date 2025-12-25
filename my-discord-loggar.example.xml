@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>discord-loggarr</Name>
+  <Repository>dualshock/discord-loggarr:dev</Repository>
+  <Registry>https://hub.docker.com/r/dualshock/discord-loggarr</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/dual-shock/discord-loggarr</Support>
+  <Project>https://github.com/dual-shock/discord-loggarr</Project>
+  <Overview>Logs Radarr/Sonarr/Lidarr events to Discord via webhooks</Overview>
+  <Category>Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:8080]/health</WebUI>
+  <TemplateURL>false</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/dual-shock/discord-loggarr/refs/heads/main/discord-loggar-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled></DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI Port" Target="8080" Default="44000" Mode="tcp" Description="Port for receiving webhooks from *arr apps" Type="Port" Display="always" Required="true" Mask="false">44000</Config>
+  <Config Name="Discord Bot Token" Target="DISCORD_TOKEN" Default="" Mode="" Description="Your Discord bot token (required)" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Discord Channel ID" Target="DISCORD_LOGS_CHANNEL_ID" Default="" Mode="" Description="Channel ID where logs will be sent (required)" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Webhook Secret" Target="WEBHOOK_SECRET" Default="" Mode="" Description="Optional: Secret key to validate incoming webhooks" Type="Variable" Display="normal" Required="false" Mask="true"/>
+</Container>

@@ -6,5 +6,6 @@ __pycache__/
 *.py[cod]
 
 .env
+docker-compose.yml
 
 .vscode/
