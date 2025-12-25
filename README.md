@@ -4,8 +4,13 @@ optionally combined with user requests applications like overseerr to provide st
 
 
 ## how to run the development build
-note: if you dont have the `docker-compose.yml`, `.env` or `my-discord-loggarr.xml` files youll 
-have to create them
+note: if you dont have the `docker-compose.yml`, `.env` or `my-discord-loggarr.xml` files youll have to create them
+
+### setup
+- youll need a discord application and bot set up in your server, instructions on this can be found anywhere.
+- the bots auth token and the channel id you want it to report to 
+- the bot needs permissions to send messages in said channel
+- an environment that runs docker containers, like unraid
 
 ### using using docker / docker-compose
 1. Copy `docker-compose.example.yml` to your `docker-compose.yml`
