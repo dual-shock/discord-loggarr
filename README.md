@@ -40,8 +40,8 @@ like to recieve webhooks from. In radarr this would look something like this:
 - triggers: any you want (handling for each event will be handled on the side of discord-loggarr)
 - webhook url: `http://host_ip:44000/webhook`
     note: here the host ip is the ip of the machine your bot is running on, the host port is the port used by the container on said machine, this is 44000 by default
-- webhook url: alternatively, if you want to add webhooks from dockers on the same docker network, you can put `http://discord-loggar:8080/webhook`, ensuring the connection stays persistent on a host ip changes
-method: POST
+- webhook url: alternatively, if you want to add webhooks from dockers on the same docker network, you can put `http://discord-loggar:8080/webhook`, ensuring the connection stays persistent on a host ip change
+- method: POST
 - username: your_radarr_username
 - password: your_radarr_password
 - headers: (webhook secrets are not yet a feature, tba)
