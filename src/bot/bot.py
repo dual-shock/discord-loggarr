@@ -50,7 +50,7 @@ class Client(discord.Client):
         if len(content) > 1900:
             content = content[:1900] + "…"
         
-        return f"```json\n{content}\n```"
+        return f"```json\nnote: im still a useless angel...\n\n{content}\n```"
 
 
 

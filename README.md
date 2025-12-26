@@ -4,6 +4,7 @@ A shitty docker app to centralize logging for my home lab to a discord server us
 
 ## how to run the development build
 this build is still in development and therefore not published on unraid CA.
+
 note: if you dont have the `docker-compose.yml`, `.env` or `my-discord-loggarr.xml` files youll have to create them
 
 ### setup
