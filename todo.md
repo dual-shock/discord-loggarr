@@ -1,0 +1,5 @@
+- add handling of all seperate events, turn them into embeds 
+- add icons of the apps as webhook sender pfps
+- add unpackerr as a webhook
+- add plex as a webhook
+- add qbit and sab as webhooks? 
